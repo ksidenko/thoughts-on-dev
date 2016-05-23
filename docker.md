@@ -18,6 +18,10 @@ Return proper exit codes:
 Use stdin, stdout, stderr:
 * Log to stdout. Don’t concern with routing and storage
 
+### PID 1 problem
+
+https://blog.phusion.nl/2015/01/20/docker-and-the-pid-1-zombie-reaping-problem/
+
 ## Explicit interfaces
 
 Dependencies to other containers should be made explicit by defining its interfaces.
